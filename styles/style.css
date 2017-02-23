@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+img {
+	max-width: 100%;
+}
+.titleBar {
+	text-align: center;
+	height: 10vh;
+	padding: 0;
+	position: relative;
+	background: black;
+}
+.profileImg {
+	width: 80%px;
+	border-radius: 5%;
+}
+.pageTitle {
+	display: inline-block;
+	font-size: 30px;
+	margin: 10px 20% 0 10%;
+	position: absolute;
+	top: 3px;
+	left: 475px;
+	color: white;
+}
+.userSearch {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	height: 30px;
+	width: 200px;
+}
+.leftCol {
+	display: inline-block;
+	width: 29%;
+	vertical-align: top;
+}
+.rightCol {
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+.mainPage {
+	margin: 5vh 10%;
+}
+.repo {
+	border: 2px solid gray;
+	border-radius: 1%;
+	box-shadow: 2px 2px 2px black;
+	margin: 10px;
+	min-height: 100px;
+	padding: 20px;
+}
+.repoName {
+	font-style: bold;
+	text-decoration: none;
+}
